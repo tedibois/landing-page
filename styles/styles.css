@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Futura;
+    src: url(fonts/Futura\ XBlk\ BT.ttf);
+}
+
+body{
+    font-family: Futura;
+    color:rgb(236, 159, 15);
+}
+.header{
+    position: absolute;
+    background-color: rgb(49, 69, 112);
+    text-align: center;
+    padding-bottom: 236px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.logga {
+    text-align: left;
+    display: flex;
+    padding-left: 90px;
+    margin-top: -15px;
+}
+.footer {
+    position: absolute;
+background-color: rgb(49, 69, 112);
+left: 0;
+color:rgb(236, 159, 15);
+width: 100%;
+font-size: 10px;
+text-align: center;
+padding:18px 0;
+margin-top:840px;
+left: 0;
+bottom: 0;
+}
+.links {
+    
+}
+.link {}
