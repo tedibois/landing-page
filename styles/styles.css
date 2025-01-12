@@ -2,7 +2,6 @@
     font-family: Futura;
     src: url(fonts/Futura\ XBlk\ BT.ttf);
 }
-
 body{
     font-family: Futura;
     color:rgb(236, 159, 15);
@@ -15,6 +14,7 @@ body{
     left: 0;
     top: 0;
     width: 100%;
+    display: flex;
 }
 .logga {
     text-align: left;
@@ -35,7 +35,20 @@ margin-top:840px;
 left: 0;
 bottom: 0;
 }
-.links {
-    
+a {
+    color:rgb(236, 159, 15);
+    text-decoration: none;
 }
-.link {}
+.links {
+    text-align: right;
+    padding-left: 100px;
+    padding-top: 3px;
+    padding-right: 100px;
+    font-size: 10px;
+    flex: 2 1 0%;
+}
+.link {
+    padding-left: 11px;
+    padding-top: 3px;
+    display:inline-block;
+}
