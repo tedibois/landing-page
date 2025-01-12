@@ -2,6 +2,10 @@
     font-family: Futura;
     src: url(fonts/Futura\ XBlk\ BT.ttf);
 }
+@font-face {
+    font-family: Futura2;
+    src: url(fonts/Futura\ Book\ font.ttf);
+}
 body{
     font-family: Futura;
     color:rgb(236, 159, 15);
@@ -9,17 +13,18 @@ body{
 .header{
     position: absolute;
     background-color: rgb(49, 69, 112);
-    text-align: center;
-    padding-bottom: 236px;
+    padding-bottom: 66px;
     left: 0;
     top: 0;
     width: 100%;
+}
+.hej {
     display: flex;
 }
 .logga {
     text-align: left;
-    display: flex;
-    padding-left: 90px;
+    display: flexbox;
+   margin-left: 107px;
     margin-top: -15px;
 }
 .footer {
@@ -30,7 +35,7 @@ color:rgb(236, 159, 15);
 width: 100%;
 font-size: 10px;
 text-align: center;
-padding:18px 0;
+padding: 18px 0;
 margin-top:840px;
 left: 0;
 bottom: 0;
@@ -45,10 +50,37 @@ a {
     padding-top: 3px;
     padding-right: 100px;
     font-size: 10px;
+    padding-top: -100;
     flex: 2 1 0%;
+    display: inline;
 }
 .link {
     padding-left: 11px;
     padding-top: 3px;
     display:inline-block;
+}
+.headertxt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+h3 {
+    margin-top: 35px;
+    font-size: 19px;
+    margin-bottom: 0%;
+}
+p {
+    font-family: Futura2;
+    margin-top:2px;
+    font-size: 11px;
+    margin-bottom:4px;
+}
+button {
+    width: 65px;
+    font-size: 11px;
+    border-radius: 4px;
+    border: none;
+    color:white;
+    font-family: Futura2;
+    background-color: #3882f6;
 }
