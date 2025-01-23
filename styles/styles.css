@@ -17,6 +17,8 @@ body{
     left: 0;
     top: 0;
     width: 100%;
+    right:100%;
+    display:flexbox;
 }
 .hej {
     display: flex;
@@ -28,7 +30,7 @@ body{
     margin-top: -15px;
 }
 .footer {
-    position: absolute;
+position: absolute;
 background-color: rgb(49, 69, 112);
 left: 0;
 color:rgb(236, 159, 15);
@@ -36,9 +38,11 @@ width: 100%;
 font-size: 10px;
 text-align: center;
 padding: 18px 0;
-margin-top:840px;
+margin-top: 40px;
 left: 0;
 bottom: 0;
+display: flexbox;
+
 }
 a {
     color:rgb(236, 159, 15);
@@ -57,7 +61,6 @@ a {
 .link {
     padding-left: 11px;
     padding-top: 3px;
-    display:inline-block;
 }
 .headertxt {
     display: flex;
@@ -83,4 +86,32 @@ button {
     color:white;
     font-family: Futura2;
     background-color: #3882f6;
+}
+.gray {
+    color: rgb(236, 159, 15);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    width: 100%px;
+    margin-top: 40px;
+    display: flex;
+}
+.graybox {
+    width: 100%;
+    left: 0px;
+    position:absolute;
+    background-color: #E5E7EB;
+    height: 200px;
+    display: flexbox;
+    text-align: center;
+    margin-top: 500px;
+    margin-bottom: 1000px;
+    align-items: center;
+    
+}
+.gp {
+    margin-top:auto
+    text-align:center;
+    vertical-align: auto;
+    padding: 70px;
 }
