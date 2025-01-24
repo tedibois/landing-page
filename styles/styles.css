@@ -13,21 +13,61 @@ body{
 .header{
     position: absolute;
     background-color: rgb(49, 69, 112);
-    padding-bottom: 66px;
+    padding-bottom: 80px;
     left: 0;
     top: 0;
     width: 100%;
     right:100%;
     display:flexbox;
+    
+}
+.topbox{
+
+align-items: center;
+justify-content: center;
+
+}
+.topbox1 {
+    margin-left: 850px;
+height:250px;
+width:500px;
+margin-top:60px;
+align-items: center;
+justify-content: center;
+vertical-align: middle;
+display: inline-block;
+padding: 1rem 1rem;
+
+}
+.topbox2 {
+    height: 250px;
+    width: 500px;: ;
+    margin-top:80px;
+    background-color:black;
+    justify-content: space-between;
+    text-align: right;
+    align-items: right;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background-size:cover;
+    background-image: url('./images/ungdomskraft.avif');
+    margin-left: 200px;
 }
 .hej {
     display: flex;
 }
 .logga {
     text-align: left;
-    display: flexbox;
-   margin-left: 107px;
+    display: inline-block;
+   margin-left: px;
     margin-top: -15px;
+    width:180px;
+    text-align: right;
+    align-items: right;
+    display: inline-block;
+    vertical-align: middle;
+
 }
 .footer {
 position: absolute;
@@ -50,17 +90,20 @@ a {
 }
 .links {
     text-align: right;
-    padding-left: 100px;
-    padding-top: 3px;
-    padding-right: 100px;
-    font-size: 10px;
-    padding-top: -100;
-    flex: 2 1 0%;
-    display: inline;
+    font-size: 20px;
+    background-color: purple;
 }
 .link {
     padding-left: 11px;
     padding-top: 3px;
+    justify-content: center;
+vertical-align: top;
+display: inline-block;
+}
+.linkar {
+    align-items: center;
+justify-content: center;
+display:flex;
 }
 .headertxt {
     display: flex;
@@ -68,24 +111,26 @@ a {
     margin-left: 110px;
 }
 h3 {
-    margin-top: 35px;
-    font-size: 19px;
+    margin-top: 0px;
+    font-size: 40px;
     margin-bottom: 0%;
 }
 p {
     font-family: Futura2;
     margin-top:2px;
-    font-size: 11px;
+    font-size: 22px;
     margin-bottom:4px;
 }
 button {
-    width: 65px;
-    font-size: 11px;
-    border-radius: 4px;
+    width: 105px;
+    height: 28px;
+    font-size: 18px;
+    border-radius: 6px;
     border: none;
     color:white;
     font-family: Futura2;
     background-color: #3882f6;
+    margin-top:8px;
 }
 .gray {
     color: rgb(236, 159, 15);
@@ -94,7 +139,7 @@ button {
     align-items: center;
     width: 100%px;
     margin-top: 40px;
-    display: flex;
+    display: ;
 }
 .graybox {
     width: 100%;
@@ -104,7 +149,7 @@ button {
     height: 200px;
     display: flexbox;
     text-align: center;
-    margin-top: 500px;
+    margin-top: 10px;
     margin-bottom: 1000px;
     align-items: center;
     
@@ -114,4 +159,46 @@ button {
     text-align:center;
     vertical-align: auto;
     padding: 70px;
+}
+.parentbluebox {
+    margin-top: 370px;
+    text-align: center;
+    display: ;
+    align-items: center;
+    justify-content: center;
+}
+.bluebox {
+    margin-top: 100px;
+    height: 100px;
+    padding: 16px;
+    background: #00000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.blue {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #3882F6;
+    background:rgb(255, 255, 255);
+
+}
+.hej {
+    color: rgb(236, 159, 15);
+    font-size 1000px:
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+  
+}
+.hejbox {
+      align-items: center;
+    justify-content: center;
+    display:;
+    :auto
+    margin-bottom: 10px;
+}
+.grandparent {
+    
 }
