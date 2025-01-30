@@ -27,24 +27,24 @@ justify-content: center;
 
 }
 .topbox1 {
-margin-left: 500px;
+margin-left: 250px;
 flex:1 2 auto;
-height: 200px;
-width:500px;
-margin-top:px;
+height: 150px;
+width:400px;
+margin-top:-100px;
 align-items: center;
 justify-content: center;
 vertical-align: middle;
 display: inline-block;
 padding: 1rem 1rem;
-
+margin-bottom:-15px;
 }
 .topbox2 {
-    height: 220px;
-    width: 400px;
+    height: 200px;
+    width: 350px;
     margin-left: 150px;
-    margin-top:30px;
-    margin-bottom: 40px;
+    margin-top:25px;
+    margin-bottom: 50px;
     background-color:black;
     justify-content: space-between;
     text-align: right;
@@ -61,7 +61,7 @@ padding: 1rem 1rem;
 .logga {
     text-align: left;
     display: inline-block;
-   margin-left: 150px;
+   margin-left: 250px;
     margin-top: -11px;
     width:180px;
     text-align: right;
@@ -91,9 +91,9 @@ a {
 }
 .links {
     margin-top:-15px;
-    margin-left:1200px;
+    margin-left:400px;
     text-align: right;
-    font-size: 20px;
+    font-size: 17px;
 }
 .link {
     padding-left: 11px;
@@ -113,13 +113,13 @@ display:flex;
 }
 h3 {
     margin-top: 0px;
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 0%;
 }
 p {
     font-family: Futura2;
     margin-top:2px;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom:4px;
 }
 button {
@@ -132,6 +132,7 @@ button {
     font-family: Futura2;
     background-color: #3882f6;
     margin-top:8px;
+    
 }
 .gray {
     color: rgb(236, 159, 15);
@@ -139,7 +140,7 @@ button {
     text-align: center;
     align-items: center;
     width: 100%px;
-    margin-top: 40px;
+    margin-top:px;
     display: ;
 }
 .graybox {
@@ -147,13 +148,74 @@ button {
     left: 0px;
     position:absolute;
     background-color: #E5E7EB;
-    height: 200px;
-    display: flexbox;
+    height: 260px;
+    display: flex;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 1000px;
+    margin-top:-65px;
     align-items: center;
+    justify-content: center;
+    vertical-align: top;
+
     
+}
+.name {
+    font-size:20px;
+    color:black;
+    vertical-align: bottom;
+    margin-top: 80px;
+}
+.last {
+    background-color: #3882f6;
+height: 85px;
+display: flexbox;
+flex: 1 1 auto;
+margin-left: 450px;
+margin-right: 450px;
+border-radius: 5px;
+text-align: left;
+margin-top: 250px;
+margin-left: ;
+margin-right: ;
+justify-content: center;
+vertical-align: auto;
+align-items: center;
+}
+.lasth3 {
+    align-items: center;
+    justify-content: center;
+    font-size:12px;
+    color:rgb(217, 227, 241);
+    margin-left: 80px;
+    margin-top:25px ;
+}
+.lastp {
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    color: rgb(215, 228, 240);
+    margin-left: 80px;
+    margin-top: ;
+}
+.lastbutton {
+    border: 2px white;
+    height: 40px;
+    width: 100px;
+    background-color: #11dc47;
+    width: 105px;
+    height: 28px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    color:white;
+    font-family: Futura2;
+    margin-top:px;
+    align-items: right;
+    vertical-align: top;
+    margin-left: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .gp {
     margin-top:auto
@@ -162,21 +224,25 @@ button {
     padding: 70px;
 }
 .parentbluebox {
-    margin-top: 370px;
+    margin-top: 380px;
     text-align: center;
     display: ;
     align-items: center;
     justify-content: center;
 }
 .bluebox {
-    margin-top:px;
-    height: 130px;
+    height: 100px;
     padding: 16px;
+    padding-bottom: 150px;
     background: #00000;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 figcaption {
     font-size: 11px;
@@ -188,19 +254,48 @@ figcaption {
     border: 3px solid #3882F6;
     background:rgb(255, 255, 255);
     border-radius: 6px;
+    background-size:cover;
+    background-image: url('./images/hej4-2.png');
+}
+.blue2 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    background:rgb(255, 255, 255);
+    border-radius: 6px;
+    background-size:cover;
+    background-image: url('./images/hej.png');
+}
+.blue3 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    background:rgb(255, 255, 255);
+    border-radius: 6px;
+    background-size:cover;
+    background-image: url('./images/hej.jpeg');
+}
+.blue4 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    background:rgb(255, 255, 255);
+    border-radius: 6px;
+    background-size:cover;
+    background-image: url('./images/hej3.png');
 }
 .hej {
     color: rgb(236, 159, 15);
     font-size: 25px;
-    margin-top: 400px;
+    margin-top: 370px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
   
 }
 .hejbox {
       align-items: center;
     justify-content: center;
-
     margin-bottom: 10px;
 }
 .grandparent {
